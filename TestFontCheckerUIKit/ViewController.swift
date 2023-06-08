@@ -13,7 +13,7 @@ import CoreText
 class ViewController: UIViewController, UIDocumentPickerDelegate {
     // MARK: - Properties
 
-    static let shouldUseTextKit2 = true
+    static let shouldUseTextKit2 = false
 
     let documentPicker = UIDocumentPickerViewController(documentTypes: ["com.adobe.pdf"], in: .import)
     let pdfView = PDFView()
@@ -88,6 +88,15 @@ class ViewController: UIViewController, UIDocumentPickerDelegate {
 
     // MARK: - Text rendering
 
+    func createFont(withData data: Data) -> CTFont? {
+        guard let ctFontDescriptor = CTFontManagerCreateFontDescriptorFromData(data as CFData) else {
+            return nil
+        }
+
+        let ctFont = CTFontCreateWithFontDescriptor(ctFontDescriptor, 16, nil)
+        return ctFont
+    }
+
     func renderPDFText(_ pdfDocument: PDFDocument?) {
         guard let pdfDocument = pdfDocument else { return }
 
@@ -107,6 +116,18 @@ class ViewController: UIViewController, UIDocumentPickerDelegate {
             }
         }
 
-        textView.attributedText = pdfText
+        guard let path = Bundle.main.path(forResource: "font35", ofType: nil) else
+        {
+            return
+        }
+        guard let data = NSData(contentsOf: URL(filePath: path)) else {
+            return
+        }
+        let font = createFont(withData: data as Data)
+        let attributes = [NSAttributedString.Key.font: font]
+        let str = NSMutableAttributedString(string: "leggi del Paese in cui ci si trova, che potrebbero avere contenuti diversi da quanto affermato in questo manuale", attributes: attributes)
+        str.addAttribute(NSAttributedString.Key.backgroundColor, value: UIColor.red, range: NSMakeRange(0, 10))
+
+        textView.attributedText = str
     }
 }

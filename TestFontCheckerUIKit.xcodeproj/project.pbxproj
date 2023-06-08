@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F63820432A30FA68001C0007 /* FTTRBU+OMcluster01Regular in Resources */ = {isa = PBXBuildFile; fileRef = F63820402A30FA68001C0007 /* FTTRBU+OMcluster01Regular */; };
+		F63820442A30FA68001C0007 /* FTTRBU+OMinterior00Regular in Resources */ = {isa = PBXBuildFile; fileRef = F63820412A30FA68001C0007 /* FTTRBU+OMinterior00Regular */; };
+		F63820452A30FA68001C0007 /* FTTRBU+OMinterior01Regular in Resources */ = {isa = PBXBuildFile; fileRef = F63820422A30FA68001C0007 /* FTTRBU+OMinterior01Regular */; };
+		F63820482A31D959001C0007 /* archiveFont in Resources */ = {isa = PBXBuildFile; fileRef = F63820472A31D959001C0007 /* archiveFont */; };
+		F638204A2A31E0B9001C0007 /* font35 in Resources */ = {isa = PBXBuildFile; fileRef = F63820492A31E084001C0007 /* font35 */; };
 		F64A9C682A25EDA4009D6B36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64A9C672A25EDA4009D6B36 /* AppDelegate.swift */; };
 		F64A9C6A2A25EDA4009D6B36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64A9C692A25EDA4009D6B36 /* SceneDelegate.swift */; };
 		F64A9C6C2A25EDA4009D6B36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64A9C6B2A25EDA4009D6B36 /* ViewController.swift */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F63820402A30FA68001C0007 /* FTTRBU+OMcluster01Regular */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FTTRBU+OMcluster01Regular"; sourceTree = "<group>"; };
+		F63820412A30FA68001C0007 /* FTTRBU+OMinterior00Regular */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FTTRBU+OMinterior00Regular"; sourceTree = "<group>"; };
+		F63820422A30FA68001C0007 /* FTTRBU+OMinterior01Regular */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FTTRBU+OMinterior01Regular"; sourceTree = "<group>"; };
+		F63820472A31D959001C0007 /* archiveFont */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = archiveFont; sourceTree = "<group>"; };
+		F63820492A31E084001C0007 /* font35 */ = {isa = PBXFileReference; lastKnownFileType = file; path = font35; sourceTree = "<group>"; };
 		F64A9C642A25EDA4009D6B36 /* TestFontCheckerUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFontCheckerUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64A9C672A25EDA4009D6B36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F64A9C692A25EDA4009D6B36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +45,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F63820462A30FA70001C0007 /* FontsData */ = {
+			isa = PBXGroup;
+			children = (
+				F63820402A30FA68001C0007 /* FTTRBU+OMcluster01Regular */,
+				F63820472A31D959001C0007 /* archiveFont */,
+				F63820492A31E084001C0007 /* font35 */,
+				F63820412A30FA68001C0007 /* FTTRBU+OMinterior00Regular */,
+				F63820422A30FA68001C0007 /* FTTRBU+OMinterior01Regular */,
+			);
+			path = FontsData;
+			sourceTree = "<group>";
+		};
 		F64A9C5B2A25EDA4009D6B36 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +79,7 @@
 				F64A9C672A25EDA4009D6B36 /* AppDelegate.swift */,
 				F64A9C692A25EDA4009D6B36 /* SceneDelegate.swift */,
 				F64A9C6B2A25EDA4009D6B36 /* ViewController.swift */,
+				F63820462A30FA70001C0007 /* FontsData */,
 				F64A9C702A25EDA6009D6B36 /* Assets.xcassets */,
 				F64A9C722A25EDA6009D6B36 /* LaunchScreen.storyboard */,
 				F64A9C752A25EDA6009D6B36 /* Info.plist */,
@@ -123,7 +146,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F64A9C742A25EDA6009D6B36 /* LaunchScreen.storyboard in Resources */,
+				F63820432A30FA68001C0007 /* FTTRBU+OMcluster01Regular in Resources */,
+				F638204A2A31E0B9001C0007 /* font35 in Resources */,
+				F63820482A31D959001C0007 /* archiveFont in Resources */,
+				F63820442A30FA68001C0007 /* FTTRBU+OMinterior00Regular in Resources */,
 				F64A9C712A25EDA6009D6B36 /* Assets.xcassets in Resources */,
+				F63820452A30FA68001C0007 /* FTTRBU+OMinterior01Regular in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

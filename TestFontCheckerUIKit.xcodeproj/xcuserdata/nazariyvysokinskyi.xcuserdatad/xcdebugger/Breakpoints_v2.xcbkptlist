@@ -8,14 +8,125 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F025E1A0-3D95-4000-AA4F-2498D6FD5F9B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestFontCheckerUIKit/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "renderPDFText(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F025E1A0-3D95-4000-AA4F-2498D6FD5F9B - a582e859e58c3ad0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestFontCheckerUIKit.ViewController.renderPDFText(Swift.Optional&lt;__C.PDFDocument&gt;) -&gt; ()"
+                  moduleName = "TestFontCheckerUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nazariyvysokinskyi/Developer/TestFontCheckerUIKit/TestFontCheckerUIKit/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "2664">
+               </Location>
+               <Location
+                  uuid = "F025E1A0-3D95-4000-AA4F-2498D6FD5F9B - a582e859e58c3ad0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestFontCheckerUIKit.ViewController.renderPDFText(Swift.Optional&lt;__C.PDFDocument&gt;) -&gt; ()"
+                  moduleName = "TestFontCheckerUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nazariyvysokinskyi/Developer/TestFontCheckerUIKit/TestFontCheckerUIKit/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "2732">
+               </Location>
+               <Location
+                  uuid = "F025E1A0-3D95-4000-AA4F-2498D6FD5F9B - a582e859e58c383d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestFontCheckerUIKit.ViewController.renderPDFText(Swift.Optional&lt;__C.PDFDocument&gt;) -&gt; ()"
+                  moduleName = "TestFontCheckerUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nazariyvysokinskyi/Developer/TestFontCheckerUIKit/TestFontCheckerUIKit/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "2864">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7C4CA11-485C-45D0-963F-6DF041332C0E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestFontCheckerUIKit/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "renderPDFText(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B7C4CA11-485C-45D0-963F-6DF041332C0E - a582e859e58c3a96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestFontCheckerUIKit.ViewController.renderPDFText(Swift.Optional&lt;__C.PDFDocument&gt;) -&gt; ()"
+                  moduleName = "TestFontCheckerUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nazariyvysokinskyi/Developer/TestFontCheckerUIKit/TestFontCheckerUIKit/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "1700">
+               </Location>
+               <Location
+                  uuid = "B7C4CA11-485C-45D0-963F-6DF041332C0E - a582e859e58c3a96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestFontCheckerUIKit.ViewController.renderPDFText(Swift.Optional&lt;__C.PDFDocument&gt;) -&gt; ()"
+                  moduleName = "TestFontCheckerUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nazariyvysokinskyi/Developer/TestFontCheckerUIKit/TestFontCheckerUIKit/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "1888">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D5AA4C9-7D46-4F01-8383-BBC213734FA3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestFontCheckerUIKit/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
             landmarkName = "renderPDFText(_:)"
             landmarkType = "7">
          </BreakpointContent>
